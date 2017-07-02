@@ -1,0 +1,11 @@
+[package]
+name = "rss_reader"
+version = "0.1.0"
+authors = ["Jake Neumann <thejakeneumann@gmail.com>"]
+
+[dependencies]
+curl = "0.4.6"
+hyper = "0.10.10"
+hyper-native-tls = "0.2.2"
+rss = { version = "0.6.1", features = ["from_url"] }
+xml-rs = "0.4.1"
